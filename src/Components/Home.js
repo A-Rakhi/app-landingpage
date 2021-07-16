@@ -4,12 +4,12 @@ import banner1 from "../img/banner1.png";
 
 function Home() {
   return (
-    <div>
+    <div className="container mx-auto">
       <div
-        className="lg:mx-5 md:mx-5 mx-0 "
+        className="xl:rounded-2xl lg:rounded-2xl md:rounded-2xl rounded-none w-full"
         style={{
           backgroundImage: `url(${banner})`,
-          backgroundRepeat: "no-repeat",
+          backgroundRepeat: "no-repeat", backgroundSize:"cover",backgroundPosition:"center"
         }}
       >
         <div className="grid grid-cols md:grid-cols-2 xl:px-2 lg:px-2 md:px-1 sm:px-20 px-10 items-center">

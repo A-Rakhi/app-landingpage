@@ -5,12 +5,12 @@ import MoreFeatures from "./MoreFeatures";
 function Download() {
   return (
     <div>
-      <div className="container mx-auto my-10  xl:px-5 lg:px-5 px-2">
+      <div className="container mx-auto my-10  ">
         <div
-          className=""
+          className="xl:rounded-2xl lg:rounded-2xl md:rounded-2xl rounded-none w-full"
           style={{
             backgroundImage: `url(${pattern})`,
-            backgroundRepeat: "no-repeat",
+            backgroundRepeat: "no-repeat", backgroundSize:"cover"
           }}
         >
           <div className="py-20 text-center">
