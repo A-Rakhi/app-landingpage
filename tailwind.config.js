@@ -3,6 +3,12 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+
+    container: {
+      center: true,
+      padding : '24px',
+    },
+    
     screens: {
       'sm': '560px',
       // => @media (min-width: 640px) { ... }
